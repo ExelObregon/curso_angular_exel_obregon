@@ -4,8 +4,9 @@ un saludo personalizado, por ejemplo, "¡Hola, Juan!".
 
 */
 
+
 function saludar(nombre) {
-    console.log('Hola ${nombre}');
+    console.log(`Hola ${nombre}`);
     
 }
 

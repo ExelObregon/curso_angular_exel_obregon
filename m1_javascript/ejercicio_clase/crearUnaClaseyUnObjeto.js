@@ -4,3 +4,13 @@ llamado saludar que imprima en consola un saludo con el nombre y apellido de la 
 2. Instancia un objeto de la clase Persona y llama al método saludar
 
 */
+const frutas = ['manzana', 'platano', 'naranjas'];
+frutas.push('nispero');
+
+console.log(frutas);
+
+
+let repitefruta = frutas.push('manzana');
+
+console.log(repitefruta);
+console.log(frutas);

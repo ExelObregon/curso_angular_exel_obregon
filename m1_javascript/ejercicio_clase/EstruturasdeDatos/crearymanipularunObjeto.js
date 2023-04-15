@@ -26,9 +26,24 @@ class persona {
     persona1.telefonos = [123456789, 12345689];
     console.log(persona1);
 
+// muestra en consola todas sus propidades y sus valores usando un bucle for...in
+
+for (const propiedad in persona1) {   
+    console.log(`${propiedad} = ${persona1[propiedad]}`);
+    
+ }
 
 
 
+
+
+// for: cuando iteramos sobre una estructura de datos utilizando un i (indice) como posiciion
+// for of: cuando iteramos sobre estrucrras de dtos como arrays, set o mapas y solo queremos valores
+// for in: cuando iteramos sobre poopiedades de un objeto y necesitmso conocer nombre de atriutos y sus valores
+// forEach: recibe una funcion y ejecuta ese comportamiento sobre cada elemento de la estructura de datos
+
+let personas = [ 'alan', 'jose', 'exel'];
+personas.forEach(persona => console.log(persona));
 
 
 

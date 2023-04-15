@@ -3,8 +3,8 @@
 // metodos
 
 class computer {
-    fabricante = 'MSI'
-    MODELO = '1551 A34'
+    fabricante = 'MSI';
+    MODELO = '1551 A34';
     
 }
 

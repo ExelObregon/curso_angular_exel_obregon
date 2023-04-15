@@ -52,6 +52,10 @@ function estoEsUnaFucion(){
 // asi se invoca, como los brujos, jejeje
 
 estoEsUnaFucion();
-estoEsUnaFucion();
 
+//otra funcion
 
+function saludar(nombre, edad){
+console.log(`Hola mi nombre es ${nombre} y tengo ${edad}años`);
+}
+saludar('exel',7);

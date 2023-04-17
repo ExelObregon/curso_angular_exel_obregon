@@ -1,0 +1,22 @@
+class Persona{
+
+    #edad;
+
+
+    constructor(nombre, edad){
+        this.nombre = nombre;
+        this.#edad = edad;
+
+    }
+    get edad(){
+        return this.#edad;
+    }
+    set edad(nuevaEdad) { // se utliza para modificar un atributo privado
+        if (nuevaEdad >= 18)
+        this.edad = nuevaEdad;
+    }
+}
+
+let persona1 = new Persona('persona1', 20);
+persona1.edad = 3; // asignacion directa, funciona si el atributo es publico (no esta encapsulado)
+console.log(persona1.edad);

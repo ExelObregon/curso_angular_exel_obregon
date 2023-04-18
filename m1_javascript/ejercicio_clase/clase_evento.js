@@ -28,3 +28,5 @@ class Event {
         event1.addUser(users4);
         event1.addUser(users5);
         console.log(event1);
+
+        

@@ -7,12 +7,12 @@ if (age >= 18) {
 
 for (let i: number = 0; i < 5; i++) {
         console.log(i);
-        }
+}
 
 
-        let numbers: number[] = [1, 2, 3, 4, 5];
+let numbers: number[] = [1, 2, 3, 4, 5];
 for (let num of numbers) {
-console.log(num);
+        console.log(num);
 }
 
 let person = {

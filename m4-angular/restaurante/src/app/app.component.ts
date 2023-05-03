@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'restaurante';
 }
+
+restaurante: Irestaurante = {
+  name: 'Marisqueria',
+  address: 'corazon de maria',
+  phone: 123456789
+}

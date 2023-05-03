@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class Ejemplo1Component {
 
   mensaje:string = 'hola mundo desde ejemplo1'
-
+  precio: number = 3.99;
 }
